@@ -10,7 +10,7 @@
     },
     "matrix_pins": {
         "direct": [
-            ["GP5", "GP7", "GP20", "GP22", "GP14"],
+            ["GP5", "GP7", "GP20", "GP17", "GP14"],
             ["GP8", "GP16", "GP22", "GP28", "GP13"],
             ["GP6", "GP19", "GP27", "GP9", "GP15"],
             [null, null, "GP11", "GP10", null],
@@ -29,7 +29,7 @@
                 {"label": "GP5", "matrix": [0, 0], "x": 0, "y": 0},
                 {"label": "GP7", "matrix": [0, 1], "x": 0, "y": 1},
                 {"label": "GP20", "matrix": [0, 2], "x": 0, "y": 2},
-                {"label": "GP22", "matrix": [0, 3], "x": 0, "y": 3},
+                {"label": "GP17", "matrix": [0, 3], "x": 0, "y": 3},
                 {"label": "GP14", "matrix": [0, 4], "x": 0, "y": 4},
 
                 {"label": "GP8", "matrix": [1, 0], "x": 1, "y": 0},
