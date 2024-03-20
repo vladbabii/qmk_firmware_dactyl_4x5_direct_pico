@@ -1,0 +1,59 @@
+{
+    "manufacturer": "Raspberry Pi",
+    "keyboard_name": "DirectPins RP2040",
+    "maintainer": "jepler",
+    "bootloader": "rp2040",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP5", "GP7", "GP20", "GP22", "GP14"],
+            ["GP8", "GP16", "GP22", "GP28", "GP13"],
+            ["GP6", "GP19", "GP27", "GP9", "GP15"],
+            [null, null, "GP11", "GP10", null],
+            ["GP21", "GP26", "GP4", "GP12", "GP18"]
+        ]
+    },
+    "processor": "RP2040",
+    "usb": {
+        "device_version": "0.0.1",
+        "pid": "0x2326",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT_all": {
+            "layout": [
+                {"label": "GP5", "matrix": [0, 0], "x": 0, "y": 0},
+                {"label": "GP7", "matrix": [0, 1], "x": 0, "y": 1},
+                {"label": "GP20", "matrix": [0, 2], "x": 0, "y": 2},
+                {"label": "GP22", "matrix": [0, 3], "x": 0, "y": 3},
+                {"label": "GP14", "matrix": [0, 4], "x": 0, "y": 4},
+
+                {"label": "GP8", "matrix": [1, 0], "x": 1, "y": 0},
+                {"label": "GP16", "matrix": [1, 1], "x": 1, "y": 1},
+                {"label": "GP22", "matrix": [1, 2], "x": 1, "y": 2},
+                {"label": "GP28", "matrix": [1, 3], "x": 1, "y": 3},
+                {"label": "GP13", "matrix": [1, 4], "x": 1, "y": 4},
+
+                {"label": "GP6", "matrix": [2, 0], "x": 2, "y": 0},
+                {"label": "GP19", "matrix": [2, 1], "x": 2, "y": 1},
+                {"label": "GP27", "matrix": [2, 2], "x": 2, "y": 2},
+                {"label": "GP9", "matrix": [2, 3], "x": 2, "y": 3},
+                {"label": "GP15", "matrix": [2, 4], "x": 2, "y": 4},
+
+                {"label": "GP11", "matrix": [3, 2], "x": 3, "y": 3},
+                {"label": "GP10", "matrix": [3, 3], "x": 3, "y": 4},
+
+                {"label": "GP21", "matrix": [4, 0], "x": 4, "y": 0},
+                {"label": "GP26", "matrix": [4, 1], "x": 4, "y": 1},
+                {"label": "GP4", "matrix": [4, 2], "x": 4, "y": 2},
+                {"label": "GP12", "matrix": [4, 3], "x": 4, "y": 3},
+                {"label": "GP18", "matrix": [4, 4], "x": 4, "y": 4}
+                
+            ]
+        }
+    }
+}
