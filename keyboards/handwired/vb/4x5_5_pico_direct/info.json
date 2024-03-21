@@ -18,7 +18,8 @@
         "extrakey": true,
         "mousekey": true,
         "nkro": false,
-        "unicode": true
+        "unicode": true,
+        "split_keyboard": true
     },
     "matrix_pins": {
         "direct": [
