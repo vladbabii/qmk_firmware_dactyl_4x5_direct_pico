@@ -11,15 +11,7 @@
     "processor": "RP2040",
     "bootloader": "rp2040",
     "features": {
-        "bootmagic": true,
-        "via": true,
-        "command": false,
-        "console": false,
-        "extrakey": true,
-        "mousekey": true,
-        "nkro": false,
-        "unicode": true,
-        "split_keyboard": true
+        "bootmagic": true
     },
     "matrix_pins": {
         "direct": [
