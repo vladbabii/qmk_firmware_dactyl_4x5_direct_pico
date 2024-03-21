@@ -1,17 +1,24 @@
 {
     "keyboard_name": "VB-M-Split-Dactyl-Pico",
     "manufacturer": "vb",
-    "url": "https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/dactyl_manuform/4x5_5",
+    "url": "https://github.com/vladbabii/qmk_firmware_dactyl_4x5_direct_pico/tree/qmk_firmware_dactyl_4x5_direct_pico_right/keyboards/handwired/vb/4x5_5_pico_direct",
     "maintainer": "vb",
+    "usb": {
+        "vid": "0x6669",
+        "pid": "0x6996",
+        "device_version": "0.0.1"
+    },
+    "processor": "RP2040",
     "bootloader": "rp2040",
     "features": {
         "bootmagic": true,
+        "via": true,
+        "command": false,
+        "console": false,
         "extrakey": true,
         "mousekey": true,
-        "via": true
-    },
-    "bootmagic": {
-        "matrix": [1, 2]
+        "nkro": false,
+        "unicode": true
     },
     "matrix_pins": {
         "direct": [
@@ -22,21 +29,11 @@
             ["GP21", "GP26", "GP4", "GP18", "GP12"]
         ]
     },
-    "processor": "RP2040",
-    "usb": {
-        "vid": "0x6669",
-        "pid": "0x6996",
-        "device_version": "0.0.1"
-    },
     "split": {
-        "enabled": true,
-        "soft_serial_pin": "GP0",
-        "transport": {
-            "protocol": "serial"
-        },
         "bootmagic": {
             "matrix": [1, 2]
         },
+        "enabled": true,
         "matrix_pins": {
             "right": {
                 "direct": [
@@ -47,9 +44,12 @@
                     ["GP15", "GP13", "G17" , "GP14", "GP16"]
                 ]
             }
+        },
+        "soft_serial_pin": "GP0",
+        "transport": {
+            "protocol": "serial"
         }
     },
-    "development_board": "promicro",
     "layouts": {
         "LAYOUT": {
             "layout": [
